@@ -11,7 +11,6 @@ cntr = 1
     new_katz_deli_array = "#{cntr}. #{cust_name}"
     cntr +=1
 end
-  new_katz_deli_array.flatten
   puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
