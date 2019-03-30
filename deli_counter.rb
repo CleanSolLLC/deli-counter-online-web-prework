@@ -10,7 +10,7 @@ cntr = 1
   else
     katz_deli.each do |cust_name|
     name = cust_name
-    new_katz_deli_array[index] << name
+    new_katz_deli_array[index].push(name)
     index +=1
     cntr +=1
 end
