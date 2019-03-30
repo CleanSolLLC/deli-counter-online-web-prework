@@ -8,8 +8,7 @@ new_string = []
     puts "The line is currently empty."
   else
     katz_deli.each_with_index { |cust_name, index| index += 1
-    new_katz_deli_array = "#{index}. #{cust_name}"
-  #  new_katz_deli_array.to_s
+    new_katz_deli_array << "#{index}. #{cust_name}"
     puts "The line is currently: #{new_katz_deli_array}"
 }
   end
