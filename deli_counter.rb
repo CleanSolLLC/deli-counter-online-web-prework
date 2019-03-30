@@ -13,7 +13,7 @@ cntr = 1
     index +=1
     cntr +=1
 end
-  new_katz_deli_array.flatten
+  new_katz_deli_array.to_str
   puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
