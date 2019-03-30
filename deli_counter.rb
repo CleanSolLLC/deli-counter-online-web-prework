@@ -13,7 +13,8 @@ index = 0
     cntr +=1
     index +=1
 }
-  puts "The line is currently: #{new_katz_deli_array}"
+new_katz_deli_string = new_katz_deli_array.to_s
+  puts "The line is currently: #{new_katz_deli_string}"
   end
 return katz_deli
 end
