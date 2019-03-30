@@ -12,7 +12,7 @@ new_string = []
     #new_katz_deli_array.join(".")
     new_string = new_katz_deli_array.to_s
   }
-      puts "The line is currently: #{new_string}"
+      print "The line is currently: #{new_string}"
   end
 return katz_deli
 end
