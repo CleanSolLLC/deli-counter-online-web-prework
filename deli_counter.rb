@@ -9,10 +9,11 @@ cntr = 1
     puts "The line is currently empty."
   else
     katz_deli.each do |cust_name|
-    new_katz_deli_array[index] = "#{cntr}. #{cust_name}"
+    new_katz_deli_array[index] = cntr, cust_name
     index +=1
     cntr +=1
 end
+  new_katz_deli_array.to_s
   puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
