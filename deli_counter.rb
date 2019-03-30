@@ -3,6 +3,7 @@
 
 def line (katz_deli)
 new_katz_deli_array = []
+new_string = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else
