@@ -1,5 +1,5 @@
 # Write your code here.
-#katz_deli = ["Mark", "Kim", "Cindy", "Nicole", "Natalie"]
+katz_deli = ["Mark", "Kim", "Cindy", "Nicole", "Natalie"]
 
 def line (katz_deli)
 new_katz_deli_array = []
