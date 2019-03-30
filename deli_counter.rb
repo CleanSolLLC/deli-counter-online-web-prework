@@ -9,7 +9,8 @@ cntr = 1
     puts "The line is currently empty."
   else
     katz_deli.each do |cust_name|
-    new_katz_deli_array[index] =  "#{cust_name}"
+    name = cust_name
+    new_katz_deli_array[index] =  "#{name}"
     index +=1
     cntr +=1
 end
