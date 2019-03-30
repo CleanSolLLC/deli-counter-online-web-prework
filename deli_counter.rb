@@ -3,18 +3,16 @@
 
 def line (katz_deli)
 new_katz_deli_array = []
-index = 0
 cntr = 1
   if katz_deli.empty?
     puts "The line is currently empty."
   else
     katz_deli.each do |cust_name|
-    new_katz_deli_array[index] = cust_name
-    index +=1
+    new_katz_deli_string = "#{cntr}. #{cust_name}"
     cntr +=1
 end
   new_katz_deli_array.flatten
-  puts "The line is currently: #{new_katz_deli_array}"
+  puts "The line is currently: #{new_katz_deli_string}"
   end
 return katz_deli
 end
