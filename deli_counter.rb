@@ -11,7 +11,7 @@ new_string = []
     new_katz_deli_array = "#{index}. #{cust_name}"
     new_katz_deli_array.to_s
 }
-    
+
       puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
