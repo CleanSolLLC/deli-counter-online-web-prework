@@ -12,9 +12,8 @@ new_string = []
       name = cust_name
     new_katz_deli_array.push(line_num,name)
     #new_katz_deli_array.join(".")
-    new_string = new_katz_deli_array.to_s
   }
-      puts "The line is currently: #{new_string}"
+      puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
 end
