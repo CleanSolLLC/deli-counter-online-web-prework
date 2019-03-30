@@ -3,14 +3,17 @@
 
 def line (katz_deli)
 new_katz_deli_array = []
-new_string = []
+index = 0
+cntr = 1
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index { |cust_name, index| index += 1
-    new_katz_deli_array[1] = "#{index}. #{cust_name}"
-    puts "The line is currently: #{new_katz_deli_array}"
-}
+    katz_deli.each do |cust_name|
+    new_katz_deli_array[index] = "#{cntr}. #{cust_name}"
+    index +=1
+    cntr +=1
+end
+  puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
 end
