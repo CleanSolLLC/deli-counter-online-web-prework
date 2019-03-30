@@ -9,7 +9,7 @@ new_string = []
   else
     katz_deli.each_with_index do |cust_name, index| index += 1
     new_katz_deli_array = "#{index}. #{cust_name}"
-    new_katz_deli_array.to_s
+  #  new_katz_deli_array.to_s
     puts "The line is currently: #{new_katz_deli_array}"
 end
   end
