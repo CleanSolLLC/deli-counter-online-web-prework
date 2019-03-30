@@ -13,7 +13,7 @@ index = 0
     cntr +=1
     index +=1
 }
-new_katz_deli_string = new_katz_deli_array.join
+new_katz_deli_string = new_katz_deli_array.join(" ")
   puts "The line is currently: #{new_katz_deli_string}"
   end
 return katz_deli
