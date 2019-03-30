@@ -4,13 +4,15 @@
 def line (katz_deli)
 new_katz_deli_array = []
 cntr = 1
+index = 0
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each do |cust_name|
-    new_katz_deli_array = "#{cntr}. #{cust_name}"
+    katz_deli.each { |cust_name|
+    new_katz_deli_array[index] = "#{cntr}. #{cust_name}"
     cntr +=1
-end
+    index +=1
+}
   puts "The line is currently: #{new_katz_deli_array}"
   end
 return katz_deli
