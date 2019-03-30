@@ -7,12 +7,11 @@ new_string = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index {|cust_name, index| index += 1
+    katz_deli.each_with_index do |cust_name, index| index += 1
     new_katz_deli_array = "#{index}. #{cust_name}"
     new_katz_deli_array.to_s
-}
-
-      puts "The line is currently: #{new_katz_deli_array}"
+    puts "The line is currently: #{new_katz_deli_array}"
+end
   end
 return katz_deli
 end
